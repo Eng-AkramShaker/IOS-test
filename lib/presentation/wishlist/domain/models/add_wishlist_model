@@ -1,0 +1,51 @@
+class AddwishlistModel {
+  final bool? success;
+  final Data? data;
+
+  AddwishlistModel({
+    this.success,
+    this.data,
+  });
+
+  factory AddwishlistModel.fromJson(Map<String, dynamic>? json) {
+    json ??= {};
+    return AddwishlistModel(
+      success: json['success'],
+      data: json['data'] != null ? Data.fromJson(json['data']) : null,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'success': success,
+      'data': data?.toJson(),
+    };
+  }
+
+}
+
+class Data {
+  final num? id;
+  final String? message;
+
+  Data({
+    this.id,
+    this.message,
+  });
+
+  factory Data.fromJson(Map<String, dynamic>? json) {
+    json ??= {};
+    return Data(
+      id: json['id'],
+      message: json['message'],
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'message': message,
+    };
+  }
+
+}

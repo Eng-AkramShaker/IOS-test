@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ios_test.iml" filepath="$PROJECT_DIR$/ios_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/ios_test_android.iml" filepath="$PROJECT_DIR$/android/ios_test_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buynuk.iml" filepath="$PROJECT_DIR$/buynuk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/buynuk_android.iml" filepath="$PROJECT_DIR$/android/buynuk_android.iml" />
     </modules>
   </component>
 </project>
